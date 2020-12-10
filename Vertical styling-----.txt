@@ -1,0 +1,20 @@
+Vertical styling-----
+
+find the class of the body tag of a page with text
+縦書き
+
+add to css afterwards
+*{
+    writing-mode: vertical-rl !important;
+    -webkit-writing-mode: vertical-rl !important;
+}
+
+iterate through and append to every styling file
+-------
+in metadata.opf
+replace
+<spine toc="ncx">
+
+with
+
+  <spine toc="ncx" page-progression-direction="rtl">

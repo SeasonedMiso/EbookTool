@@ -1,0 +1,23 @@
+GUI to convert azw3 from horizontal to vertical text or vice versa---
+
+>>>>>>>>>>>>>>>>>>>
+Web interface for them for cross platform, host from github.io
+
+javascript 
+interface: 
+css frameworks: materialize (android), bookshop
+https://materializecss.com/
+
+steps: 
+x make web interface
+- make sure you can upload files to the webpage
+- drag and drop support
+- console load it
+- then work out logic
+
+>upload mobi or AZw3
+>iterate through and parse file
+>add vertical stuff
+>provide download link for user for new file
+
+>throw error if drmd azw3 file is uploaded
